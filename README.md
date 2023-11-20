@@ -376,7 +376,7 @@ python ssh_user_enum.py --port 2223 --userList /root/Downloads/users.txt IP 2>/d
 
 https://book.hacktricks.xyz/pentesting/pentesting-smtp#basic-information
 
-REF:Postfish
+
 ```
 nc -nvvC 10.11.1.111 25
 HELO foo<cr><lf>
@@ -415,7 +415,6 @@ nmap -p69 --script=tftp-enum.nse 10.11.1.111
 ```
 
 ## Port 79 - Finger
-Ref:HtB Sunday
 
 ```
 kali@kali:~/HtB/Sunday/finger-user-enum-1.0$ ./finger-user-enum.pl -U /usr/share/seclists/Seclists/Usernames/Names/names.txt -t 10.10.10.76 
